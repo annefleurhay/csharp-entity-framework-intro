@@ -19,7 +19,6 @@ namespace ef.intro.wwwapi.Context
         }
         public DbSet<Author> Authors { get; set; }
         public DbSet<Book> Books { get; set; }
-
-        //TODO:  add publisher DbSet Property
+        public DbSet<Publisher> Publishers { get; set; }
     }
 }
